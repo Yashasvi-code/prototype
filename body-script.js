@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AyurSutra - Ayurvedic Patient Management</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              "bg-warm": "#F5F3F0",
-              "card-white": "#FFFFFF",
-              "accent-sage": "#4A6C55",
-              "accent-terracotta": "#C68B75",
-              "text-dark": "#3D3B38",
-            },
-          },
-        },
-      };
-    </script>
-    <!-- <script src="head-script.js"></script> -->
-    <link rel="stylesheet" href="ayursutra.css" />
-  </head>
-  <body>
-    <div id="root"></div>
 
-    <script type="text/babel">
       const { useState, useEffect } = React;
 
       // Main App Component
@@ -1605,6 +1570,3 @@
 
       // Render the app
       ReactDOM.render(<App />, document.getElementById("root"));
-    </script>
-  </body>
-</html>
